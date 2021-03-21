@@ -82,7 +82,10 @@
 ### Shortcuts
 - switch languages -> cmd space
 - finder search -> f6
-- Ctrl + 1..10 -> go to workspace N (1-10) (create 10 workspaces)  
+- Ctrl + 1..10 -> go to workspace N (1-10) (create 10 workspaces) 
+
+### Раскладка
+- Первая - стандартная английская, вторая - русская (ПК)
 
 ## Chrome setup:
 
