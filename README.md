@@ -56,36 +56,33 @@
 
 ## Keyboard setup
 
-### Install karabiner-elements, allow everything in system preferences
+### Install karabiner-elements
+  - https://karabiner-elements.pqrs.org/
+  - Проверить, что разрешения есть у karabiner-grabber и karabiner-observer
 
 ### Karabiner simple modifications
 - caps -> left ctrl
 - escape -> fn
 - fn -> escape
-- right option -> delete_or_backspace
-- left control -> fn
+- left control -> escape
 
 ### Karabiner complex modifications
 - right cmd + hjkl -> arrows
-
-### Karabiner function keys
-- f4 -> f4
-- f5 -> f5
-- f6 -> f6
+- spacebar -> left shift
 
 ### Set up mac keyboard preferences
 
+### Keyboard
 - Key repeat: fastest
 - Delay until repeat: shortest
-- Keyboard -> Preferences -> Отключить все автозамены вообще
 
-### Mac keyboard shortcuts
+### Preferences
+- Отключить все автозамены вообще
+
+### Shortcuts
 - switch languages -> cmd space
-
-- spotlight -> f4
 - finder search -> f6
-
-- Ctrl + N -> go to workspace N (1-10)
+- Ctrl + 1..10 -> go to workspace N (1-10) (create 10 workspaces)  
 
 ## Chrome setup:
 
