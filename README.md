@@ -41,14 +41,12 @@
    - size: small
    - position: right
    - autohide dock: yes
-   - show recent in doc: no
-   - Hide Dock:`defaults write com.apple.dock autohide-delay -float 2; killall Dock`
-      - Restore: `defaults write com.apple.dock autohide-delay 0; killall Dock`
+   - show recent in dock: no
 - Mission control
    - auto arrange spaces: no
-   - displays have separate spaces: yes
+- AppleID
+ - ICloud: disable all other iCloud items except FindMyMac
 - Security
-  - enable filevault, use icloud (main), login, enable filevault, disable all other iCloud items except FindMyMac
   - Firewall (автоматом ничё не делать)
   - general: require pass immediately
 - Sound
