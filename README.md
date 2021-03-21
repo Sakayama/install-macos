@@ -65,10 +65,10 @@
 - escape -> fn
 - fn -> escape
 - left control -> escape
+- right option -> caps lock
 
 ### Karabiner complex modifications
 - right cmd + hjkl -> arrows
-- spacebar -> left shift
 
 ### Set up mac keyboard preferences
 
