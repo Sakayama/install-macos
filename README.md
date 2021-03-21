@@ -108,6 +108,14 @@ killall Finder
 ```
 
 
+## Установили
+- Word, Excel, PowerPoint
+- Slack
+- Numbers, Pages, Keynote, iMovie, GarageBand
+- Telegram
+- Skype
+- Transmission
+
 ## Настройка почты
 
 
