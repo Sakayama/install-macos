@@ -122,6 +122,7 @@ killall Finder
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - `xcode-select --install` чтобы работал Git
+- `cd ~ && mkdir dev && mkdir forks && mkdir originals && mkdir .manual-bin` - создаст директории. Их можно добавить в боковую панель Finder
 
 - [VSCode](https://code.visualstudio.com/#alt-downloads) (Выбрать версию для Apple Silicon)
    - синхронизация настроек - логин через GitHub
@@ -129,7 +130,19 @@ killall Finder
    - Включиить алиас `code`: CmdShifftP -> Install code command in path
    - `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false` - для повторных нажатий клавиш
 
+## Node.js и JS
+- Установить
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+nvm install 14
+npm install -g yarn
 
+# Штобы не слетала выбранная версия
+nvm alias default 14
+
+# Чтобы npm не орал
+npm config set scripts-prepend-node-path auto
+```
 
 ## После каждого обновления системы (когда отваливается Git)
 
