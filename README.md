@@ -121,8 +121,13 @@ killall Finder
 ## Разработочка
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- `xcode-select --install` чтобы работал Git
 
-
+- [VSCode](https://code.visualstudio.com/#alt-downloads) (Выбрать версию для Apple Silicon)
+   - синхронизация настроек - логин через GitHub
+   - логин в LiveShare - логин через GitHub
+   - Включиить алиас `code`
+   - `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false`
 
 
 
