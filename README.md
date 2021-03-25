@@ -123,7 +123,7 @@ killall Finder
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - `xcode-select --install` чтобы работал Git
 - `cd ~ && mkdir dev && mkdir forks && mkdir originals && mkdir .manual-bin` - создаст директории. Их можно добавить в боковую панель Finder
-
+- [iTerm2](https://iterm2.com/)
 - [VSCode](https://code.visualstudio.com/#alt-downloads) (Выбрать версию для Apple Silicon)
    - синхронизация настроек - логин через GitHub
    - логин в LiveShare - логин через GitHub
@@ -143,6 +143,12 @@ nvm alias default 14
 # Чтобы npm не орал
 npm config set scripts-prepend-node-path auto
 ```
+
+
+## Elm (after Node, Nix and Fish)
+- [Elm](https://guide.elm-lang.org/install/elm.html)
+- `npm install -g elm-test elm-live`
+- elm-format
 
 ## После каждого обновления системы (когда отваливается Git)
 
