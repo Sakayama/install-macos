@@ -107,7 +107,6 @@ killall cfprefsd
 killall Finder
 ```
 
-
 ## Установили
 - Word, Excel, PowerPoint
 - Slack
@@ -118,4 +117,16 @@ killall Finder
 
 ## Настройка почты
 
+
+## Разработочка
+
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+
+
+
+
+## После каждого обновления системы (когда отваливается Git)
+
+- `xcode-select --install` Xcode, похоже, делали пидоры.
 
