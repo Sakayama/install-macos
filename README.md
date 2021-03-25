@@ -126,8 +126,8 @@ killall Finder
 - [VSCode](https://code.visualstudio.com/#alt-downloads) (Выбрать версию для Apple Silicon)
    - синхронизация настроек - логин через GitHub
    - логин в LiveShare - логин через GitHub
-   - Включиить алиас `code`
-   - `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false`
+   - Включиить алиас `code`: CmdShifftP -> Install code command in path
+   - `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false` - для повторных нажатий клавиш
 
 
 
