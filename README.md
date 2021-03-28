@@ -166,6 +166,32 @@ chmod +x elm-format
 sudo mv elm-format /usr/local/bin/
 ```
 
+
+### Git
+
+- сгенерить новые ключи и добавить в настройки пользователя на GitHub
+```sh
+ssh-keygen -t ed25519 -C "sakayama@rambler.ru"
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+- activate ssh agent (to be usable by git client) (выполнять в zsh или bash)
+```sh
+chmod 600 ~/.ssh/id_ed25519
+eval $(ssh-agent)
+ssh-add ~/.ssh/id_ed25519
+```
+- Git config
+
+```sh
+git config --global user.name Sakayama
+git config --global user.email sakayama@rambler.ru
+git config --global core.excludesFile '~/.global_gitignore'
+echo "gitignore/\n.DS_Store" >> .global_gitignore
+```
+
+--------
+
 ## После каждого обновления системы (когда отваливается Git)
 
 - `xcode-select --install` Xcode, похоже, делали пидоры.
