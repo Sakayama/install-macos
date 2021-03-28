@@ -194,5 +194,5 @@ echo "gitignore/\n.DS_Store" >> .global_gitignore
 
 ## После каждого обновления системы (когда отваливается Git)
 
-- `xcode-select --install` Xcode, похоже, делали пидоры.
+- `xcode-select --install` Xcode, похоже, делали глупые пидоры.
 
