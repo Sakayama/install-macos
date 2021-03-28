@@ -132,8 +132,18 @@ killall Finder
 
 ## Node.js и JS
 - Установить
-```bash
+```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+chmod u+x ~/.nvm/nvm.sh
+```
+
+Проследить, что в `~/.zshrc` есть такие строки:
+```
+export NVM_DIR="$HOME/.nvm"
+source "$NVM_DIR/nvm.sh"
+```
+
+```sh
 nvm install 14
 npm install -g yarn
 
@@ -149,6 +159,12 @@ npm config set scripts-prepend-node-path auto
 - [Elm](https://guide.elm-lang.org/install/elm.html)
 - `npm install -g elm-test elm-live`
 - elm-format
+```sh
+curl -L -o elm-format.tgz https://github.com/avh4/elm-format/releases/download/0.8.5/elm-format-0.8.5-mac-x64.tgz
+tar -xzf elm-format.tgz
+chmod +x elm-format
+sudo mv elm-format /usr/local/bin/
+```
 
 ## После каждого обновления системы (когда отваливается Git)
 
